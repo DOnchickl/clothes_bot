@@ -1,0 +1,17 @@
+def calculator():
+    print("Welcome in our bot! ")
+
+    while True:
+        print("What do you whant?: ")
+        print("1: What can i put on")
+        print("2: Shop")
+        print("3: settings")
+
+        print("4: Go out")
+
+        choice = input("choice one of this number (1/2/3/4): ")
+        if choice == '1':
+        
+        elif choice == '4':
+            print("Bye Bye Bro")
+            break

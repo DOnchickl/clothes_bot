@@ -1,0 +1,31 @@
+def clothing_advisor(temp):
+    clothing = {
+        "very cold" : "the most warm clothing, jacket, hat",
+        "cold" : "jacket, hat, mittens",
+        "warm" : "light pants or jeans shorts, pullover",
+        "hot" : "shorts, cap, T-shirt"
+    }
+
+    if   temp >= 25:
+        print(f"In outside very hot you can try: {clothing['hot']}.")
+    elif temp >= 15:
+        print(f"in outside warm you can try: {clothing['warm']}")
+    elif temp >= 0:
+        print(f"In outside cold you can try: {clothing['cold']}")
+    else:
+        print(f"In outside very cold you can try: {clothing['very cold']}")
+print("Welcome in our bot")
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
